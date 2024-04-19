@@ -205,5 +205,5 @@ class ImageCaptioner:
 
 if __name__ == "__main__":
     root = tk.Tk()
-    app = PhotoViewer(root)
+    app = ImageCaptioner(root)
     root.mainloop()
