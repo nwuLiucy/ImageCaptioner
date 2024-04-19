@@ -3,7 +3,7 @@ from tkinter import filedialog
 from PIL import Image, ImageTk, ImageDraw, ImageFont
 import os
 
-class PhotoViewer:
+class ImageCaptioner:
     def __init__(self, root):
         self.root = root
         self.root.title("ImageCaptioner")
